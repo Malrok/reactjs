@@ -1,0 +1,9 @@
+.user {
+
+}
+
+.user__picture {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
