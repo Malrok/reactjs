@@ -16,8 +16,8 @@ export default function List() {
             <h1>Users</h1>
             <ul>
               {data.map(user => (
-                <Link to={`detail/${user.id}`}>
-                  <UserThumbnail key={user.id} user={user}/>
+                <Link to={`detail/${user.id}`} key={user.id}>
+                  <UserThumbnail user={user}/>
                 </Link>
               ))}
             </ul>
