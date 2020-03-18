@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import FirestoreDocument from '../../components/firestore-document';
 import User from '../../models/user';
 import './detail.css';
